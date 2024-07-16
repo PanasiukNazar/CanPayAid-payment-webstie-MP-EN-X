@@ -3430,6 +3430,11 @@ hr {
     background-position: left top;
     height: 700px;
 }
+@media (max-width: 772px) {
+    .approach-img {
+        width: 100%;
+    }
+}
 @media (max-width: 575px) {
     .all-starups-area .starups-img {
         width: 100%;
