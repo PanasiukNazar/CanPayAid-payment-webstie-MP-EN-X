@@ -3053,6 +3053,7 @@ hr {
 }
 .project-gallery-area .portfolio-wrapper .portfolio-thumb img {
     width: 100%;
+    object-fit: cover;
 }
 .project-gallery-area .portfolio-wrapper .portfolio-thumb::before {
     position: absolute;
@@ -3166,6 +3167,13 @@ hr {
     font-weight: 500;
     line-height: 1.5;
 }
+.testimonial-area .testimonial-caption .testimonial-founder img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .h1-testimonial-active button.slick-arrow {
     position: absolute;
     top: 50%;
